@@ -1,4 +1,4 @@
-module L1RCTConfig = RctConfigProducers {
+es_module = RCTConfigProducers {
   double eGammaLSB = 0.5
   double jetMETLSB = 0.5
   double eMinForFGCut = 3.0
@@ -11,5 +11,5 @@ module L1RCTConfig = RctConfigProducers {
   vdouble eGammaECalScaleFactors = {1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.}
   vdouble eGammaHCalScaleFactors = {1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.}
   vdouble jetMETECalScaleFactors = {1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.}
-  vdouble jetMETECalScaleFactors = {1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.}
+  vdouble jetMETHCalScaleFactors = {1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.}
 }
