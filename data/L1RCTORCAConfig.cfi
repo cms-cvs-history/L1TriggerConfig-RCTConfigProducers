@@ -1,0 +1,31 @@
+es_module = RCTConfigProducers {
+  double eGammaLSB = 0.5
+  double jetMETLSB = 0.5
+  double eMinForFGCut = 3.0
+  double eMaxForFGCut = 50.
+  double hOeCut = 0.05
+  double eMinForHoECut = 3.0
+  double eMaxForHoECut = 60.
+  double eActivityCut = 3.0
+  double hActivityCut = 3.0
+  vdouble eGammaECalScaleFactors = {
+    1.00, 1.01, 1.02, 1.02, 1.02, 1.06, 1.04, 1.04, 1.05, 1.09, 
+    1.10, 1.10, 1.15, 1.20, 1.27, 1.29, 1.32, 1.52, 1.52, 1.48, 
+    1.40, 1.32, 1.26, 1.21, 1.17, 1.15
+  }
+  vdouble eGammaHCalScaleFactors = {
+    1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+    1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+    1., 1., 1., 1., 1., 1.
+  }
+  vdouble jetMETECalScaleFactors = {
+    1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 
+    1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 
+    1., 1., 1., 1., 1., 1.
+  }
+  vdouble jetMETHCalScaleFactors = {
+    1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 
+    1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 
+    1., 1., 1., 1., 1., 1.
+  }
+}
