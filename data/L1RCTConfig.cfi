@@ -8,6 +8,7 @@ es_module = RCTConfigProducers {
   double eMaxForHoECut = 60.
   double eActivityCut = 3.0
   double hActivityCut = 3.0
+  double eicIsolationThreshold = 3.0
   vdouble eGammaECalScaleFactors = {
     1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
     1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,

@@ -1,0 +1,7 @@
+es_source l1RctParamsRecords = EmptyESSource {
+	string recordName = "L1RCTParametersRcd"
+	vuint32 firstValid = { 1 }
+	bool iovIsRunNotTime = true
+}
+
+#include "L1TriggerConfig/RCTConfigProducers/data/L1RCTConfig-ECALGREN.cfi"
