@@ -14,6 +14,7 @@ es_module = RCTConfigProducers {
 	double eMaxForHoECut = -999.     # disabled here
 	double eActivityCut = 999.   # Activity bits for tau calc
 	double hActivityCut = 999.   # not used in GR
+	bool ignoreHcalIfNoEcalMip = false
 	vdouble eGammaECalScaleFactors = {
 		1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
 		1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,

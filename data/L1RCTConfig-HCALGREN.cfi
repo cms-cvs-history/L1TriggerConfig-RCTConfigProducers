@@ -9,6 +9,7 @@ es_module = RCTConfigProducers {
 	double eActivityCut = 999.   # Activity bits for tau calc
 	double hActivityCut = 999.   # not used in GR
 	double eicIsolationThreshold = 0.0  # tight isolation for HCAL
+	bool ignoreHcalIfNoEcalMip = false
 	vdouble eGammaECalScaleFactors = {
 		1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
 		1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
