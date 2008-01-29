@@ -9,7 +9,9 @@ es_module = RCTConfigProducers {
   double eActivityCut = 3.0
   double hActivityCut = 3.0
   double eicIsolationThreshold = 3.0
-  bool ignoreHcalIfNoEcalMip = false
+  bool ignoreTowerHB = false
+  bool ignoreTowerHEplus = false
+  bool ignoreTowerHEminus = false
   vdouble eGammaECalScaleFactors = {
     1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
     1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
