@@ -6,12 +6,13 @@ es_module = RCTConfigProducers {
   double hOeCut = 0.05
   double eMinForHoECut = 3.0
   double eMaxForHoECut = 60.
+  double hMinForHoECut = 3.0
   double eActivityCut = 3.0
   double hActivityCut = 3.0
   double eicIsolationThreshold = 3.0
-  bool ignoreTowerHB = false
-  bool ignoreTowerHEplus = false
-  bool ignoreTowerHEminus = false
+  bool noiseVetoHB = false
+  bool noiseVetoHEplus = false
+  bool noiseVetoHEminus = false
   vdouble eGammaECalScaleFactors = {
     1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
     1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,

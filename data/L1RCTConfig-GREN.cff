@@ -12,11 +12,12 @@ es_module = RCTConfigProducers {
 	double hOeCut = 999.           # H/E not used
 	double eMinForHoECut = 999.      # H/E cut not used, 
 	double eMaxForHoECut = -999.     # disabled here
+	double hMinForHoECut = 999.      #
 	double eActivityCut = 999.   # Activity bits for tau calc
 	double hActivityCut = 999.   # not used in GR
-	bool ignoreTowerHB = false
-	bool ignoreTowerHEplus = false
-	bool ignoreTowerHEminus = false
+	bool noiseVetoHB = false
+	bool noiseVetoHEplus = false
+	bool noiseVetoHEminus = false
 	vdouble eGammaECalScaleFactors = {
 		1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
 		1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
