@@ -12,7 +12,7 @@ es_module = RCTConfigProducers {
   double eicIsolationThreshold = 3.0
   bool noiseVetoHB = false
   bool noiseVetoHEplus = false
-  bool noiesVetoHEminus = false
+  bool noiseVetoHEminus = false
   vdouble eGammaECalScaleFactors = {
     1.00, 1.01, 1.02, 1.02, 1.02, 1.06, 1.04, 1.04, 1.05, 1.09, 
     1.10, 1.10, 1.15, 1.20, 1.27, 1.29, 1.32, 1.52, 1.52, 1.48, 
