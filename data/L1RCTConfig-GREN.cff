@@ -15,6 +15,7 @@ es_module = RCTConfigProducers {
 	double hMinForHoECut = 999.      #
 	double eActivityCut = 999.   # Activity bits for tau calc
 	double hActivityCut = 999.   # not used in GR
+	double eicIsolationThreshold = 0.  # force non-isolation
 	bool noiseVetoHB = false
 	bool noiseVetoHEplus = false
 	bool noiseVetoHEminus = false
