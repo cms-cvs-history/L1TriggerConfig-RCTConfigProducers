@@ -1,5 +1,5 @@
 import FWCore.ParameterSet.Config as cms
-
+ 
 from CalibCalorimetry.EcalTPGTools.ecalTPGScale_cff import *
 
 from L1TriggerConfig.RCTConfigProducers.L1RCTConfig_cfi import *
