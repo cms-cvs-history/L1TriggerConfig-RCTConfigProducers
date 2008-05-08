@@ -1,10 +1,9 @@
 # ECAL scale
 include "CalibCalorimetry/EcalTPGTools/data/ecalTPGScale.cff"
-
+ 
 # HCAL scale ?
 
 # RCT parameters
-
 es_source l1RctParamsRecords = EmptyESSource {
     string recordName = "L1RCTParametersRcd"
     vuint32 firstValid = { 1 }
