@@ -10,4 +10,4 @@ es_source l1RctParamsRecords = EmptyESSource {
     bool iovIsRunNotTime = true
 }
 
-include "L1TriggerConfig/RCTConfigProducers/data/L1RCTORCAConfig.cfi"
+include "L1TriggerConfig/RCTConfigProducers/data/L1RCTConfig.cfi"
