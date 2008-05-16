@@ -1,4 +1,4 @@
 
-es_module = L1RctInputScaleProducer {
+es_module L1RctInputScalesProducer = L1RctInputScalesProducer {
 
 }
