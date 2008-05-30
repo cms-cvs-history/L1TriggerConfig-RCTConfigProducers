@@ -4,21 +4,6 @@ include "CalibCalorimetry/EcalTPGTools/data/ecalTPGScale.cff"
 # HCAL scale ?
 
 
-# RCT input scale
-es_source l1RctEcalScaleRecord = EmptyESSource {
-    string recordName = "L1RctEcalScaleRcd"
-    vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = true
-}
-
-es_source l1RctHcalScaleRecord = EmptyESSource {
-    string recordName = "L1RctHcalScaleRcd"
-    vuint32 firstValid = { 1 }
-    bool iovIsRunNotTime = true
-}
-
-include "L1TriggerConfig/RCTConfigProducers/data/L1RctInputScalesProducer.cfi"
-
 # RCT parameters
 es_source l1RctParamsRecords = EmptyESSource {
     string recordName = "L1RCTParametersRcd"
