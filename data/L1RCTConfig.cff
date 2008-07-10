@@ -1,8 +1,5 @@
-# ECAL scale
-include "CalibCalorimetry/EcalTPGTools/data/ecalTPGScale.cff"
- 
-# HCAL scale ?
-
+# ECAL and HCAL scales
+include "L1TriggerConfig/L1ScalesProducers/data/L1CaloInputScalesConfig.cff"
 
 # RCT parameters
 es_source l1RctParamsRecords = EmptyESSource {
