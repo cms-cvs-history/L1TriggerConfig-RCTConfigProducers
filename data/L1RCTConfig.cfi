@@ -1,4 +1,4 @@
-include "L1TriggerConfig/RCTConfigProducer/data/RCTCalibration.cfi"
+include "L1TriggerConfig/RCTConfigProducer/data/RCTCalibration.cff"
 es_module = RCTConfigProducers {
   double eGammaLSB = 0.5 
   double jetMETLSB = 0.5
